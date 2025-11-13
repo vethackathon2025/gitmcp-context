@@ -1,0 +1,63 @@
+# Veterans Transition Assistant
+> AI-powered curriculum creator and interview simulator helping veterans transition from military to civilian life through guided conversations and structured learning paths.
+
+**Key Capabilities:**
+- Dynamic curriculum generation based on veteran's background and goals
+- Realistic interview practice with industry-specific scenarios
+- Voice-driven interaction with contextual script guidance
+- Comprehensive transition resources and knowledge base
+
+## Voice Agent Scripts
+- [Conversation Flow Scripts](/scripts/conversation-flows.md): Structured dialogue patterns for different scenarios
+- [Interview Scenarios](/scripts/interview-scenarios.md): Industry-specific interview simulations and responses
+- [Curriculum Progression](/scripts/curriculum-progression.md): Step-by-step learning path instructions
+- [Assessment Scripts](/scripts/assessment-scripts.md): Evaluation and feedback delivery patterns
+- [Crisis Response](/scripts/crisis-response.md): Supportive language for challenging conversations
+
+## Curriculum Creation
+- [Curriculum Templates](/curriculum/templates.md): Pre-built learning paths by career field
+- [Skill Mapping](/curriculum/skill-mapping.md): Military to civilian skill translation
+- [Learning Objectives](/curriculum/learning-objectives.md): Goal-setting frameworks
+- [Progress Tracking](/curriculum/progress-tracking.md): Milestone and achievement guidelines
+- [Customization Guide](/curriculum/customization.md): How to adapt curricula to individual needs
+
+## Interview Simulator
+- [Interview Types](/interview/types.md): Behavioral, technical, and panel interview formats
+- [Industry Scenarios](/interview/industries.md): Sector-specific interview guidance (tech, healthcare, trades, etc.)
+- [Question Banks](/interview/questions.md): Common interview questions with military-context answers
+- [Feedback Framework](/interview/feedback.md): Constructive evaluation patterns
+- [Follow-up Strategies](/interview/follow-up.md): Post-interview communication guidance
+
+## Transition Resources
+- [Career Fields](/resources/career-fields.md): Civilian career options by military specialty
+- [Benefits Guide](/resources/benefits.md): VA benefits, GI Bill, and transition programs
+- [Resume Builder](/resources/resume.md): Military to civilian resume translation
+- [Networking Strategies](/resources/networking.md): Professional connection building
+- [Education Pathways](/resources/education.md): Degree programs, certifications, and vocational training
+
+## Reference Materials
+- [Military Terminology Translation](/reference/terminology.md): MOS/Rating to civilian job title mapping
+- [Credential Equivalencies](/reference/credentials.md): Military certifications to civilian credentials
+- [Transition Timeline](/reference/timeline.md): Recommended preparation schedule (12-18 months out)
+- [Common Challenges](/reference/challenges.md): Typical obstacles and solutions
+- [Success Stories](/reference/success-stories.md): Veteran transition case studies
+
+## Voice Agent Guidance
+- [Tone and Language](/guidance/tone.md): Respectful, supportive communication style
+- [Context Switching](/guidance/context-switching.md): Moving between topics smoothly
+- [Active Listening Patterns](/guidance/active-listening.md): Acknowledgment and validation techniques
+- [Probing Questions](/guidance/probing-questions.md): How to elicit detailed responses
+- [Encouragement Strategies](/guidance/encouragement.md): Motivational language patterns
+
+## Integration Instructions
+- [OpenAI Realtime Setup](/integration/openai-realtime.md): Voice API configuration
+- [Session Management](/integration/sessions.md): User state and progress tracking
+- [Script Invocation](/integration/script-invocation.md): How to trigger conversation scripts
+- [Curriculum API](/integration/curriculum-api.md): Dynamic curriculum generation endpoints
+- [Assessment API](/integration/assessment-api.md): Progress evaluation and feedback
+
+## Optional
+- [Contributing](/CONTRIBUTING.md): How to add new scripts and resources
+- [Changelog](/CHANGELOG.md): Version history and updates
+- [Privacy Policy](/PRIVACY.md): Data handling for veteran information
+- [Support Resources](/SUPPORT.md): Additional help and emergency contacts
