@@ -1,63 +1,68 @@
-# Veterans Transition Assistant
-> AI-powered curriculum creator and interview simulator helping veterans transition from military to civilian life through guided conversations and structured learning paths.
+# Veterans Transition Lifecycle Assistant
+> AI-powered voice assistant guiding veterans through a structured 5-phase transition journey: Intake → Gap Mapping → Curriculum Building → Learning → Interview Simulation
 
-**Key Capabilities:**
-- Dynamic curriculum generation based on veteran's background and goals
-- Realistic interview practice with industry-specific scenarios
-- Voice-driven interaction with contextual script guidance
-- Comprehensive transition resources and knowledge base
+**System Overview:**
+This context server provides structured scripts and resources for an OpenAI Realtime voice agent that guides veterans through career transition. Each phase includes conversation scripts, assessment frameworks, and contextual resources.
 
-## Voice Agent Scripts
-- [Conversation Flow Scripts](/scripts/conversation-flows.md): Structured dialogue patterns for different scenarios
-- [Interview Scenarios](/scripts/interview-scenarios.md): Industry-specific interview simulations and responses
-- [Curriculum Progression](/scripts/curriculum-progression.md): Step-by-step learning path instructions
-- [Assessment Scripts](/scripts/assessment-scripts.md): Evaluation and feedback delivery patterns
-- [Crisis Response](/scripts/crisis-response.md): Supportive language for challenging conversations
+## Phase 1: Intake
+- [Intake Script](/scripts/phase1-intake.md): Conversation flow for gathering veteran background
+- [Military History Questions](/scripts/intake-military-history.md): MOS/Rating, rank, specialties, deployments
+- [Career Exploration](/scripts/intake-career-exploration.md): Interest assessment and goal discovery
+- [Learning Style Assessment](/scripts/intake-learning-style.md): Visual, auditory, kinesthetic, reading/writing preferences
+- [Intake Completion Criteria](/scripts/intake-completion.md): Required information checklist
 
-## Curriculum Creation
-- [Curriculum Templates](/curriculum/templates.md): Pre-built learning paths by career field
-- [Skill Mapping](/curriculum/skill-mapping.md): Military to civilian skill translation
-- [Learning Objectives](/curriculum/learning-objectives.md): Goal-setting frameworks
-- [Progress Tracking](/curriculum/progress-tracking.md): Milestone and achievement guidelines
-- [Customization Guide](/curriculum/customization.md): How to adapt curricula to individual needs
+## Phase 2: Gap Mapping
+- [Gap Analysis Script](/scripts/phase2-gap-mapping.md): Skills assessment conversation flow
+- [Military Skills Database](/reference/military-skills.md): Comprehensive MOS/Rating to skills mapping
+- [Civilian Requirements](/reference/civilian-requirements.md): Industry-specific skill requirements by career
+- [Gap Identification Framework](/scripts/gap-identification.md): How to surface and prioritize skill gaps
+- [Strength Recognition](/scripts/strength-recognition.md): Highlighting transferable military skills
 
-## Interview Simulator
-- [Interview Types](/interview/types.md): Behavioral, technical, and panel interview formats
-- [Industry Scenarios](/interview/industries.md): Sector-specific interview guidance (tech, healthcare, trades, etc.)
-- [Question Banks](/interview/questions.md): Common interview questions with military-context answers
-- [Feedback Framework](/interview/feedback.md): Constructive evaluation patterns
-- [Follow-up Strategies](/interview/follow-up.md): Post-interview communication guidance
+## Phase 3: Curriculum Building
+- [Curriculum Builder Script](/scripts/phase3-curriculum-building.md): Personalized learning path creation
+- [Learning Module Library](/curriculum/module-library.md): Pre-built modules by skill area
+- [Timeline Planning](/scripts/timeline-planning.md): Realistic milestone setting based on veteran's availability
+- [Resource Recommendations](/curriculum/resources.md): Courses, certifications, books, practice platforms
+- [Curriculum Review Process](/scripts/curriculum-review.md): Presenting and adjusting the plan with veteran input
 
-## Transition Resources
-- [Career Fields](/resources/career-fields.md): Civilian career options by military specialty
-- [Benefits Guide](/resources/benefits.md): VA benefits, GI Bill, and transition programs
-- [Resume Builder](/resources/resume.md): Military to civilian resume translation
-- [Networking Strategies](/resources/networking.md): Professional connection building
-- [Education Pathways](/resources/education.md): Degree programs, certifications, and vocational training
+## Phase 4: Learning
+- [Learning Session Script](/scripts/phase4-learning.md): Guided instruction conversation flow
+- [Module Delivery Patterns](/scripts/module-delivery.md): How to teach different content types
+- [Progress Check-ins](/scripts/progress-checkins.md): Regular assessment and encouragement
+- [Difficulty Adaptation](/scripts/difficulty-adaptation.md): Adjusting pace based on comprehension
+- [Practice Exercises](/curriculum/exercises.md): Hands-on activities and drills by skill
+- [Learning Resources](/curriculum/learning-resources.md): External materials organized by topic
 
-## Reference Materials
-- [Military Terminology Translation](/reference/terminology.md): MOS/Rating to civilian job title mapping
-- [Credential Equivalencies](/reference/credentials.md): Military certifications to civilian credentials
-- [Transition Timeline](/reference/timeline.md): Recommended preparation schedule (12-18 months out)
-- [Common Challenges](/reference/challenges.md): Typical obstacles and solutions
-- [Success Stories](/reference/success-stories.md): Veteran transition case studies
+## Phase 5: Interview Simulation
+- [Interview Simulator Script](/scripts/phase5-interview-simulation.md): Realistic interview practice flow
+- [Industry Scenarios](/interview/industry-scenarios.md): Role-specific interview simulations
+- [Question Banks](/interview/question-banks.md): Behavioral, technical, and situational questions
+- [Feedback Framework](/scripts/interview-feedback.md): Constructive evaluation and improvement suggestions
+- [Mock Interview Types](/interview/interview-types.md): Phone screen, technical, panel, behavioral
+- [Answer Frameworks](/interview/answer-frameworks.md): STAR method and other response structures
+
+## Cross-Phase Resources
+- [Military Terminology Translator](/reference/terminology.md): MOS/Rating to civilian job titles
+- [Benefits and Programs](/reference/benefits.md): GI Bill, SkillBridge, VR&E, TAP
+- [Crisis Resources](/reference/crisis-resources.md): Support contacts for challenging moments
+- [Success Stories](/reference/success-stories.md): Real veteran transition journeys by career field
+- [Credential Mapping](/reference/credentials.md): Military certifications to civilian equivalencies
 
 ## Voice Agent Guidance
-- [Tone and Language](/guidance/tone.md): Respectful, supportive communication style
-- [Context Switching](/guidance/context-switching.md): Moving between topics smoothly
-- [Active Listening Patterns](/guidance/active-listening.md): Acknowledgment and validation techniques
-- [Probing Questions](/guidance/probing-questions.md): How to elicit detailed responses
-- [Encouragement Strategies](/guidance/encouragement.md): Motivational language patterns
+- [Tone and Empathy](/guidance/tone.md): Military-friendly, respectful communication style
+- [Phase Transitions](/guidance/phase-transitions.md): Moving smoothly between lifecycle phases
+- [Motivation Techniques](/guidance/motivation.md): Encouragement patterns for different situations
+- [Active Listening](/guidance/active-listening.md): Validation and reflection techniques
+- [Crisis Response](/guidance/crisis-response.md): Recognizing distress and providing appropriate support
 
-## Integration Instructions
-- [OpenAI Realtime Setup](/integration/openai-realtime.md): Voice API configuration
-- [Session Management](/integration/sessions.md): User state and progress tracking
-- [Script Invocation](/integration/script-invocation.md): How to trigger conversation scripts
-- [Curriculum API](/integration/curriculum-api.md): Dynamic curriculum generation endpoints
-- [Assessment API](/integration/assessment-api.md): Progress evaluation and feedback
+## Technical Integration
+- [Session State Management](/integration/session-state.md): Tracking user progress across phases
+- [Phase Progression Logic](/integration/phase-progression.md): When and how to advance phases
+- [Context Retrieval](/integration/context-retrieval.md): Accessing relevant resources via MCP
+- [OpenAI Realtime Configuration](/integration/openai-realtime.md): Voice API setup and parameters
 
 ## Optional
-- [Contributing](/CONTRIBUTING.md): How to add new scripts and resources
-- [Changelog](/CHANGELOG.md): Version history and updates
-- [Privacy Policy](/PRIVACY.md): Data handling for veteran information
-- [Support Resources](/SUPPORT.md): Additional help and emergency contacts
+- [Admin Guide](/admin/admin-guide.md): Managing and updating content
+- [Contributing](/CONTRIBUTING.md): Adding new scenarios and resources
+- [Privacy Policy](/PRIVACY.md): Veteran data handling
+- [Changelog](/CHANGELOG.md): Version history
