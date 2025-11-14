@@ -86,12 +86,12 @@ Military veterans face significant barriers during career transitions:
 
 **Victor Stirling** is a voice-first AI career coach that provides veterans with:
 
-✅ **Structured Guidance:** A proven 5-phase lifecycle from initial assessment to interview-ready
-✅ **Military-Informed Communication:** Understands military culture, terminology, and translates experience into civilian value
-✅ **Personalized Learning:** Adapts curriculum based on background, goals, learning style, and time availability
-✅ **Realistic Practice:** Interview simulations with challenging personas and detailed feedback
-✅ **Cybersecurity Focus:** Curated pathways from Security+ through OSCP with hands-on exercises
-✅ **Continuous Support:** Crisis-aware, empathetic coaching throughout the transition journey
+- [x] **Structured Guidance:** A proven 5-phase lifecycle from initial assessment to interview-ready
+- [x] **Military-Informed Communication:** Understands military culture, terminology, and translates experience into civilian value
+- [x] **Personalized Learning:** Adapts curriculum based on background, goals, learning style, and time availability
+- [x] **Realistic Practice:** Interview simulations with challenging personas and detailed feedback
+- [x] **Cybersecurity Focus:** Curated pathways from Security+ through OSCP with hands-on exercises
+- [x] **Continuous Support:** Crisis-aware, empathetic coaching throughout the transition journey
 
 **Key Innovation:** By combining OpenAI's Realtime API for natural voice interaction with the Model Context Protocol (MCP) for dynamic knowledge retrieval, Victor provides a conversational, adaptive, and deeply personalized experience that scales to every veteran's unique situation.
 
@@ -271,44 +271,44 @@ Victor: "Let's talk about the CIA Triad in cybersecurity. Think of it using subm
 │                   OpenAI Realtime API                           │
 │              (gpt-realtime voice model)                         │
 │                                                                 │
-│  • Low-latency speech-to-speech                                │
-│  • Conversation state management                               │
-│  • Bidirectional audio streaming                               │
+│  • Low-latency speech-to-speech                                 │
+│  • Conversation state management                                │
+│  • Bidirectional audio streaming                                │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
                            ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │              Victor Stirling System Prompt                      │
 │                                                                 │
-│  • Phase progression logic                                     │
-│  • Military-informed communication style                       │
-│  • Crisis awareness & support protocols                        │
-│  • Adaptive learning & pacing                                  │
+│  • Phase progression logic                                      │
+│  • Military-informed communication style                        │
+│  • Crisis awareness & support protocols                         │
+│  • Adaptive learning & pacing                                   │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
                            ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │          Model Context Protocol (MCP) Integration               │
 │                                                                 │
-│  Dynamically fetches context from GitMCP server:               │
-│  • Phase-specific conversation scripts                         │
-│  • Military-to-civilian skill translators                      │
-│  • Career requirements databases                               │
-│  • Interview scenarios & question banks                        │
-│  • Curriculum modules & learning resources                     │
-│  • Crisis resources & success stories                          │
+│  Dynamically fetches context from GitMCP server:                │
+│  • Phase-specific conversation scripts                          │
+│  • Military-to-civilian skill translators                       │
+│  • Career requirements databases                                │
+│  • Interview scenarios & question banks                         │
+│  • Curriculum modules & learning resources                      │
+│  • Crisis resources & success stories                           │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
                            ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │     GitMCP Context Server: gitmcp.io/vethackathon2025/...       │
 │                                                                 │
-│  /scripts/          → Phase conversation flows                 │
-│  /curriculum/       → Certifications, exercises, resources     │
-│  /reference/        → Terminology, skills, benefits            │
-│  /interview/        → Personas, questions, frameworks          │
-│  /guidance/         → Tone, motivation, crisis response        │
-│  /integration/      → Session state, phase progression         │
+│  /scripts/          → Phase conversation flows                  │
+│  /curriculum/       → Certifications, exercises, resources      │
+│  /reference/        → Terminology, skills, benefits             │
+│  /interview/        → Personas, questions, frameworks           │
+│  /guidance/         → Tone, motivation, crisis response         │
+│  /integration/      → Session state, phase progression          │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -378,62 +378,64 @@ This project is organized to separate **content** (what Victor knows) from **log
 
 ```
 gitmcp/
-├── README.md                    # This file - project overview and documentation
-├── demo-script.md              # Complete demo walkthrough (8-9 minutes)
-├── llms.txt                    # System index and overview for AI consumption
+├── README.md                          # This file - project overview and documentation
+├── demo-script.md                     # Complete demo walkthrough (8-9 minutes)
+├── llms.txt                           # System index and overview for AI consumption
 │
-├── admin/                      # System administration
-│   └── admin-guide.md          # System prompt, phase jumping, configuration
+├── admin/                             # System administration
+│   └── admin-guide.md                 # System prompt, phase jumping, configuration
 │
-├── scripts/                    # Conversation flows for each phase
-│   ├── phase1-intake.md        # Gathering veteran background and goals
-│   ├── phase2-gap-mapping.md   # Identifying skills gaps
+├── scripts/                           # Conversation flows for each phase
+│   ├── phase1-intake.md               # Gathering veteran background and goals
+│   ├── phase2-gap-mapping.md          # Identifying skills gaps
 │   ├── phase3-curriculum-building.md  # Creating learning plans
-│   ├── phase4-learning.md      # Guiding through content
+│   ├── phase4-learning.md             # Guiding through content
 │   ├── phase5-interview-simulation.md # Interview practice
-│   └── ...                     # Supporting conversation modules
+│   └── ...                            # Supporting conversation modules
 │
-├── curriculum/                 # Learning content and career pathways
-│   ├── module-library.md       # Certification tracks (Security+, CEH, CISSP, OSCP)
-│   ├── exercises.md            # Hands-on labs and practical activities
-│   ├── learning-resources.md   # Curated learning materials
-│   └── resources.md            # Career paths and role competencies (18+ roles)
+├── curriculum/                        # Learning content and career pathways
+│   ├── module-library.md              # Certification tracks (Security+, CEH, CISSP, OSCP)
+│   ├── exercises.md                   # Hands-on labs and practical activities
+│   ├── learning-resources.md          # Curated learning materials
+│   └── resources.md                   # Career paths and role competencies (18+ roles)
 │
-├── reference/                  # Military-to-civilian translation resources
-│   ├── terminology.md          # Military-to-civilian language translator
-│   ├── military-skills.md      # MOS/Rating to skills mapping
-│   ├── civilian-requirements.md # Industry skill requirements
-│   ├── credentials.md          # Certification equivalencies
-│   ├── benefits.md             # GI Bill, SkillBridge, VR&E, TAP
-│   ├── crisis-resources.md     # Support contacts
-│   └── success-stories.md      # Real veteran transitions
+├── reference/                         # Military-to-civilian translation resources
+│   ├── terminology.md                 # Military-to-civilian language translator
+│   ├── military-skills.md             # MOS/Rating to skills mapping
+│   ├── civilian-requirements.md       # Industry skill requirements
+│   ├── credentials.md                 # Certification equivalencies
+│   ├── benefits.md                    # GI Bill, SkillBridge, VR&E, TAP
+│   ├── crisis-resources.md            # Support contacts
+│   └── success-stories.md             # Real veteran transitions
 │
-├── interview/                  # Interview preparation resources
-│   ├── persona-nick-hammer-ciso.md  # Detailed CISO interviewer persona
-│   ├── interview-types.md      # Phone screen, behavioral, technical, panel
-│   ├── question-banks.md       # Categorized interview questions
-│   ├── answer-frameworks.md    # STAR method and scoring rubrics
-│   └── industry-scenarios.md   # Role-specific simulations
+├── interview/                         # Interview preparation resources
+│   ├── persona-nick-hammer-ciso.md    # Detailed CISO interviewer persona
+│   ├── interview-types.md             # Phone screen, behavioral, technical, panel
+│   ├── question-banks.md              # Categorized interview questions
+│   ├── answer-frameworks.md           # STAR method and scoring rubrics
+│   └── industry-scenarios.md          # Role-specific simulations
 │
-├── guidance/                   # Communication and interaction patterns
-│   ├── tone.md                 # Military-friendly communication style
-│   ├── phase-transitions.md    # Moving between lifecycle phases
-│   ├── motivation.md           # Encouragement patterns
-│   ├── active-listening.md     # Validation techniques
-│   └── crisis-response.md      # Distress recognition and support
+├── guidance/                          # Communication and interaction patterns
+│   ├── tone.md                        # Military-friendly communication style
+│   ├── phase-transitions.md           # Moving between lifecycle phases
+│   ├── motivation.md                  # Encouragement patterns
+│   ├── active-listening.md            # Validation techniques
+│   └── crisis-response.md             # Distress recognition and support
 │
-└── integration/                # Technical configuration and state management
-    ├── session-state.md        # Progress tracking across phases
-    ├── phase-progression.md    # Advancement logic
-    ├── context-retrieval.md    # MCP access patterns
-    └── openai-realtime.md      # Voice API configuration
+└── integration/                       # Technical configuration and state management
+    ├── session-state.md               # Progress tracking across phases
+    ├── phase-progression.md           # Advancement logic
+    ├── context-retrieval.md           # MCP access patterns
+    └── openai-realtime.md             # Voice API configuration
 ```
 
 ### Contributor's Guide by Directory
 
 #### `/scripts/` - Conversation Flows
 **Purpose:** Define how Victor conducts conversations in each phase
+
 **Contributors:** Veterans, career counselors, conversation designers
+
 **What to Add:**
 - New phase-specific questions
 - Alternative conversation paths
@@ -457,7 +459,9 @@ cybersecurity terms..."
 
 #### `/curriculum/` - Learning Pathways
 **Purpose:** Organize certifications, courses, and hands-on exercises
+
 **Contributors:** Cybersecurity professionals, instructors, certification holders
+
 **What to Add:**
 - New certification tracks
 - Course modules with time estimates
@@ -482,7 +486,9 @@ cybersecurity terms..."
 
 #### `/reference/` - Translation Resources
 **Purpose:** Bridge military and civilian terminology and experiences
+
 **Contributors:** Veterans from all branches, HR professionals, hiring managers
+
 **What to Add:**
 - MOS/Rating to civilian skill mappings
 - Military terminology translations
@@ -516,7 +522,9 @@ SOC Analyst, Junior Security Engineer
 
 #### `/interview/` - Interview Preparation
 **Purpose:** Simulate realistic interviews and provide answer frameworks
+
 **Contributors:** Hiring managers, recruiters, interviewers, veterans who've interviewed
+
 **What to Add:**
 - Interviewer personas (friendly, challenging, technical)
 - Industry-specific question banks
@@ -545,7 +553,9 @@ SOC Analyst, Junior Security Engineer
 
 #### `/guidance/` - Interaction Patterns
 **Purpose:** Define Victor's communication style and support protocols
+
 **Contributors:** Counselors, psychologists, veteran support specialists
+
 **What to Add:**
 - Empathetic response templates
 - Crisis detection patterns
@@ -575,7 +585,9 @@ SOC Analyst, Junior Security Engineer
 
 #### `/integration/` - Technical Configuration
 **Purpose:** Define system behavior and state management
+
 **Contributors:** Developers, system architects
+
 **What to Add:**
 - Session state schemas
 - Phase progression logic
@@ -671,11 +683,11 @@ GitHub Repository → GitMCP Server → MCP Protocol → AI Assistant
 ```
 
 **Benefits:**
-- ✅ **Always Up-to-Date:** AI accesses latest content, not stale documentation
-- ✅ **Version Controlled:** Changes tracked through Git
-- ✅ **Collaborative:** Multiple contributors can improve content simultaneously
-- ✅ **No Deployment:** Updates to markdown files instantly available to AI
-- ✅ **Searchable:** AI can search across all files for relevant context
+- [x] **Always Up-to-Date:** AI accesses latest content, not stale documentation
+- [x] **Version Controlled:** Changes tracked through Git
+- [x] **Collaborative:** Multiple contributors can improve content simultaneously
+- [x] **No Deployment:** Updates to markdown files instantly available to AI
+- [x] **Searchable:** AI can search across all files for relevant context
 
 ### Our Implementation
 
@@ -885,12 +897,11 @@ TBD
 ## Contact & Support
 
 - **GitHub Issues:** [Report bugs or request features](https://github.com/vethackathon2025/gitmcp-context/issues)
-- **Email:** [Add contact email if applicable]
 - **Veterans in Crisis:** Call 988 then press 1, or text 838255
 
 ---
 
 **Built with ❤️ for veterans by veterans and allies**
 
-*"Your service gave you incredible skills—our job is to help you translate them into civilian success."*
-— Victor Stirling
+> *"Your service gave you incredible skills—our job is to help you translate them into civilian success."*
+> — Victor Stirling
