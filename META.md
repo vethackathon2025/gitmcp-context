@@ -11,7 +11,7 @@
 
 This document captures the meta-narrative of using **AI to build an AI solution**—a recursive, collaborative process where Claude Code (Anthropic's AI coding assistant) helped design and implement Victor Stirling, an AI career coach for military veterans.
 
-**Timeline:** November 13-14, 2025 (2 days)
+**Timeline:** November 13-14, 2025 (2 days - main development 1 day, documentation and demo 1 day)
 **Tools:** Claude Code, Git, OpenAI Realtime API, Model Context Protocol
 **Result:** A complete 5-phase voice-based career transition system with 45+ knowledge files
 
@@ -22,9 +22,9 @@ This document captures the meta-narrative of using **AI to build an AI solution*
 ### Day 1: November 13, 2025 - System Design & Content Creation
 
 #### Phase 1: Initial Concept (13:01 - 13:11)
-**Human Input:** "I want to build a voice-based AI assistant to help veterans transition to civilian careers."
+**Human Input:** "I want to build a voice-based AI assistant to help veterans transition to civilian careers.  Refer to the following notes and strategy and lifecycle..."
 
-**AI Response:** Claude proposed a structured 5-phase lifecycle approach:
+**Lifecycle:** Claude proposed a structured 5-phase lifecycle approach:
 1. Intake - Gather background
 2. Gap Mapping - Identify skills gaps
 3. Curriculum Building - Create learning plan

@@ -4,7 +4,7 @@
 
 **Built for the 2025 Veterans Hackathon** | November 13, 2025 | Microsoft Garage, NYC
 
-**📖 [Read how AI was used to build this AI solution](META.md)** - A meta-analysis of using Claude Code to design, build, and document this system in 48 hours
+**📖 [Read how AI was used to build this AI solution](META.md)** - A meta-analysis of using Claude Code to design, build, and document this system in 2 hours.
 
 ---
 
@@ -14,13 +14,13 @@
 - [About the Veterans Hackathon 2025](#about-the-veterans-hackathon-2025)
 - [The Challenge](#the-challenge)
 - [Our Solution](#our-solution)
-- [Demo](#demo)
-- [How It Works: The 5-Phase Lifecycle](#how-it-works-the-5-phase-lifecycle)
-- [Architecture & Technology Stack](#architecture--technology-stack)
-- [Strategy & Approach](#strategy--approach)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [GitMCP Integration](#gitmcp-integration)
+  - [Demo](#demo)
+  - [How It Works: The 5-Phase Lifecycle](#how-it-works-the-5-phase-lifecycle)
+  - [Architecture & Technology Stack](#architecture--technology-stack)
+  - [Strategy & Approach](#strategy--approach)
+  - [Project Structure](#project-structure)
+  - [Getting Started](#getting-started)
+  - [GitMCP Integration](#gitmcp-integration)
 - [Contributing](#contributing)
 - [Resources & Documentation](#resources--documentation)
 - [Acknowledgments](#acknowledgments)
@@ -41,7 +41,7 @@ This project represents a recursive development process: **using AI (Claude Code
 ```
 Human: Strategic vision + domain expertise + quality control
 AI: Research + content generation + structure + execution
-Result: Complex system neither could build alone in 48 hours
+Result: Complex system neither could build alone in 2 hours
 ```
 
 **What Made This Possible:**
@@ -51,14 +51,14 @@ Result: Complex system neither could build alone in 48 hours
 - **Distributed contribution model** enabling non-technical experts to improve the system
 
 **Read the full story:** [META.md](META.md) - A detailed walkthrough of the AI-assisted development process, including:
-- Day-by-day development timeline with git commit analysis
+- Development timeline with git commit analysis
 - AI development patterns observed (iterative refinement, autonomous research, creative character development)
 - Quantified AI vs. human contributions
 - Lessons learned and best practices for AI-assisted hackathons
 - The recursive nature of building AI with AI
 
-**Philosophical Question:** If an AI designs another AI's knowledge base, who is the "author"?
-**Answer:** Collaborative authorship—a new paradigm for rapid software development.
+> **Philosophical Question:** If an AI designs another AI's knowledge base, who is the "author"?
+> **Answer:** Collaborative authorship—a new paradigm for rapid software development.
 
 ---
 
@@ -858,16 +858,9 @@ This framework can be adapted for other veteran-friendly careers:
 
 ## Acknowledgments
 
-### Veterans Health Hackathon 2025
+### Veterans Hackathon 2025
 
-This project was built for the **Veterans Health Hackathon 2025**, organized by:
-- Tampa VA Medical Center
-- VHA Innovation Ecosystem
-- Microsoft
-- MIT Hacking Medicine
-- The American Legion
-
-Founded by **Dr. Indra Sandal**, Chief of Innovation at James A. Haley Veterans' Hospital.
+TODO
 
 ### Technology Partners
 
