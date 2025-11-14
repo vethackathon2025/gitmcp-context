@@ -2,6 +2,9 @@
 
 > A walkthrough of how Claude Code was used to design, build, and document the Code of Honor Veterans Transition Career Coach in under 48 hours.
 
+
+**NOTE: this transcript is machine generated and illustrative - several hours of pre-work happened before the first claude code prompt.  There are errors, such as the fact that the lifecycle was pre-defined, not proposed by AI, etc.**
+
 ---
 
 ## Overview
