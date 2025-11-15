@@ -379,7 +379,7 @@ This project is organized to separate **content** (what Victor knows) from **log
 ```
 gitmcp/
 ├── README.md                          # This file - project overview and documentation
-├── demo-script.md                     # Complete demo walkthrough (8-9 minutes)
+├── META.md                            # The saga of AI assisted development of an AI assistant
 ├── llms.txt                           # System index and overview for AI consumption
 │
 ├── admin/                             # System administration
